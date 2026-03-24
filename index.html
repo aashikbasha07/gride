@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap 4 Grid Basic Examples</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style>
+    .box { background: #f2f2f2; border: 1px solid #ccc; padding: 10px; text-align: center;}
+  </style>
+</head>
+<body>
+
+<div class="container my-4">
+
+  <h2 class="mb-4">Bootstrap 4 Grid System Examples</h2>
+
+  <!-- 1. Three Equal Columns -->
+  <h4>Three Equal Columns</h4>
+  <div class="row mb-3">
+    <div class="col box">.col</div>
+    <div class="col box">.col</div>
+    <div class="col box">.col</div>
+  </div>
+
+  <!-- 2. Four Equal Columns (Responsive) -->
+  <h4>Four Equal Columns (Responsive)</h4>
+  <div class="row mb-3">
+    <div class="col-sm-3 box">.col-sm-3</div>
+    <div class="col-sm-3 box">.col-sm-3</div>
+    <div class="col-sm-3 box">.col-sm-3</div>
+    <div class="col-sm-3 box">.col-sm-3</div>
+  </div>
+
+  <!-- 3. Two Unequal Columns -->
+  <h4>Two Unequal Columns</h4>
+  <div class="row mb-3">
+    <div class="col-sm-4 box">.col-sm-4</div>
+    <div class="col-sm-8 box">.col-sm-8</div>
+  </div>
+
+  <!-- 4. Equal Width Columns Using Numbers -->
+  <h4>Equal Width Columns with Numbers</h4>
+  <div class="row mb-3">
+    <div class="col-4 box">.col-4</div>
+    <div class="col-4 box">.col-4</div>
+    <div class="col-4 box">.col-4</div>
+  </div>
+
+  <!-- 5. Mixed Equal & Auto -->
+  <h4>One Auto + Two Fixed</h4>
+  <div class="row mb-3">
+    <div class="col box">.col</div>
+    <div class="col-6 box">.col-6</div>
+    <div class="col box">.col</div>
+  </div>
+
+  <!-- 6. Extra Rows with More Columns -->
+  <h4>More Equal Columns</h4>
+  <div class="row mb-3">
+    <div class="col box">1</div>
+    <div class="col box">2</div>
+  </div>
+  <div class="row mb-3">
+    <div class="col box">1</div>
+    <div class="col box">2</div>
+    <div class="col box">3</div>
+    <div class="col box">4</div>
+  </div>
+  <div class="row mb-3">
+    <div class="col box">1</div>
+    <div class="col box">2</div>
+    <div class="col box">3</div>
+    <div class="col box">4</div>
+    <div class="col box">5</div>
+    <div class="col box">6</div>
+  </div>
+
+  <!-- 7. Nested Columns -->
+  <h4>Nested Grid</h4>
+  <div class="row mb-3">
+    <div class="col-8 box">
+      Outer .col-8
+      <div class="row mt-2">
+        <div class="col-6 box">Inner .col-6</div>
+        <div class="col-6 box">Inner .col-6</div>
+      </div>
+    </div>
+    <div class="col-4 box">.col-4</div>
+  </div>
+
+  <!-- 8. Responsive Mix & Match -->
+  <h4>Responsive Mix & Match</h4>
+  <div class="row mb-3">
+    <div class="col-6 col-sm-9 box">.col-6 .col-sm-9</div>
+    <div class="col-6 col-sm-3 box">.col-6 .col-sm-3</div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-7 col-lg-8 box">.col-7 .col-lg-8</div>
+    <div class="col-5 col-lg-4 box">.col-5 .col-lg-4</div>
+  </div>
+
+</div>
+
+<!-- Bootstrap 4 JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
